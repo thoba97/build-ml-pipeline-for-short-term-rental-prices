@@ -592,3 +592,8 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+##
+
+W&B Project: https://wandb.ai/thomasbaurschmid-kaschberles-universit-t/build-ml-pipeline-for-short-term-rental-prices-src_basic_cleaning/
+GitHub Repo: https://github.com/thoba97/build-ml-pipeline-for-short-term-rental-prices.git
