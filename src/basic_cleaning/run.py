@@ -22,8 +22,7 @@ def go(args):
     # artifact_local_path = run.use_artifact(args.input_artifact).file()
 
     run = wandb.init(project="nyc_airbnb", group="eda", save_code=True)
-    artifact = wandb.use_artifact(args.input_artifact)
-    local_path = artifact.get_entry("sample1.csv").download(root=".")
+    local_path = wandb.use_artifact(args.input_artifact).file()
     df = pd.read_csv(local_path)
 
     # Drop outliers
